@@ -1,0 +1,221 @@
+/* ==================================================
+   01. CSS CUSTOM PROPERTIES
+   ================================================== */
+
+:root { 
+  --orange-500: hsl(25, 97%, 53%); 
+  --white: hsl(0, 100%, 100%); 
+  --grey-500: hsl(217, 12%, 63%); 
+  --grey-900: hsl(213, 19%, 18%); 
+  --grey-950: hsl(216, 12%, 8%); 
+}
+
+
+/* ==================================================
+   02. GLOBAL RESET
+   ================================================== */
+
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+}
+
+
+/* ==================================================
+   03. PAGE / BODY
+   ================================================== */
+
+body { 
+    background-color: #141519; 
+    min-height: 100vh; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    font-family: overpass; 
+}
+
+
+/* ==================================================
+   04. MAIN
+   ================================================== */
+
+main { 
+    width: 100%; 
+    display: flex; 
+    justify-content: center; 
+}
+
+
+/* ==================================================
+   05. RATING COMPONENT
+   ================================================== */
+
+.rating-component { 
+    position: relative; 
+    width: 100%; 
+    max-width: 360px; 
+    min-height: 360px; 
+}
+
+
+/* ==================================================
+   06. RATING CARD
+   ================================================== */
+
+.rating-card { 
+    background-color: #1e252f; 
+    width: 100%; 
+    /* max-width: 350px; */ 
+    padding: 24px 20px; 
+    border-radius: 20px; 
+    display: flex; 
+    flex-direction: column; 
+    gap: 24px; 
+}
+
+
+/* ==================================================
+   07. STAR ICON
+   ================================================== */
+
+.rating-card .star { 
+    width: 20px; 
+}
+
+.icon-wrapper { 
+    width: 40px; 
+    height: 40px; 
+    border-radius: 999px; 
+    background-color: var(--grey-900); 
+
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+
+/* ==================================================
+   08. RATING CARD TYPOGRAPHY
+   ================================================== */
+
+.rating-card h1 { 
+    color: var(--white); 
+}
+
+.rating-card p { 
+    color: var(--grey-500); 
+    font-size: 14px; 
+}
+
+
+/* ==================================================
+   09. RATING BUTTONS
+   ================================================== */
+
+.rating-numbers { 
+    display: flex; 
+    justify-content: space-between; 
+}
+
+.rt-btn { 
+    background-color: var(--grey-900); 
+    color: var(--grey-500); 
+    width: 50px; 
+    height: 50px; 
+    border-radius: 50%; 
+    border: none; 
+}
+
+
+/* ==================================================
+   10. RATING BUTTON STATES
+   ================================================== */
+
+.rt-btn:hover { 
+    background-color: var(--orange-500); 
+    color: var(--grey-950); 
+}
+
+.rt-btn.selected { 
+    background-color: var(--white); 
+    color: var(--grey-950); 
+}
+
+
+/* ==================================================
+   11. SUBMIT BUTTON
+   ================================================== */
+
+button { 
+    padding: 10px 0; 
+    border-radius: 999px; 
+    background-color: var(--orange-500); 
+    font-weight: 700; 
+    letter-spacing: 2px; 
+    border: none; 
+}
+
+button:hover { 
+    background-color: white; 
+}
+
+
+/* ==================================================
+   12. THANK-YOU STATE
+   ================================================== */
+
+.thank-you-state { 
+    display: none; 
+    background-color: #1e252f; 
+    width: 100%; 
+    padding: 24px 20px; 
+    border-radius: 20px; 
+    flex-direction: column; 
+    gap: 24px; 
+    justify-content: center; 
+    align-items: center; 
+
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+}
+
+
+/* ==================================================
+   13. THANK-YOU ILLUSTRATION
+   ================================================== */
+
+.illustration { 
+    text-align: center; 
+}
+
+
+/* ==================================================
+   14. THANK-YOU TYPOGRAPHY
+   ================================================== */
+
+.thnku { 
+    color: white; 
+}
+
+.thnku-discription { 
+    color: var(--grey-500); 
+    font-size: 14px; 
+    text-align: center; 
+    line-height: 1.5; 
+    width: 100%; 
+}
+
+
+/* ==================================================
+   15. SELECTED RATING
+   ================================================== */
+
+.selected-rating { 
+    color: var(--orange-500); 
+    background-color: var(--grey-900); 
+    padding: 6px 16px; 
+    border-radius: 999px; 
+    font-size: 14px; 
+}
