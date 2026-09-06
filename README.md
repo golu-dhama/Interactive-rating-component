@@ -9,12 +9,11 @@ This is my solution to the [Interactive rating component challenge on Frontend M
   - [Overview](#overview)
     - [The challenge](#the-challenge)
     - [Screenshot](#screenshot)
-      - [Desktop View](#desktop-view)
-      - [Mobile View](#mobile-view)
     - [Links](#links)
   - [My process](#my-process)
     - [Built with](#built-with)
     - [What I learned](#what-i-learned)
+    - [Continued development](#continued-development)
 
 ## Overview
 
@@ -51,6 +50,8 @@ Users should be able to:
 
 ### What I learned
 
+One challenge I faced was displaying the thank-you state in the same position as the rating card. Since the thank-you state was positioned absolutely, it was removed from the normal document flow. I solved this by using a positioned parent and a minimum height for the component so both states could occupy the same area.
+
 This project helped me understand how to approach a frontend project from a design rather than directly writing CSS.
 
 Some of the main concepts I practiced were:
@@ -74,4 +75,6 @@ let currentRating = null;
 
 currentRating = button.textContent;
 ```
+### Continued development
 
+In future projects, I want to improve my visual accuracy by paying more attention to typography, spacing, component dimensions, and responsive behavior. I also want to continue improving accessibility by implementing better keyboard and screen reader support.
