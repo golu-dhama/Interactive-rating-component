@@ -34,7 +34,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [View Solution](https://github.com/golu-dhama/Interactive-rating-component)
+- Solution URL: [View Solution](https://www.frontendmentor.io/solutions/interactive-rating-component-D8780oebhZ)
 - Live Site URL: [View Live Site](https://golu-dhama.github.io/Interactive-rating-component/)
 
 ## My process
