@@ -29,11 +29,9 @@ Users should be able to:
 
 ### Screenshot
 
-#### Desktop View
-![Interactive rating component](images/desktop-view.png)
-
-#### Mobile View
-![Interactive rating component](images/mobile-view.jpg)
+| Desktop | Mobile |
+| :---: | :---: |
+| <img src="./images/desktop-view.png" width="600"> | <img src="./images/mobile-view.jpg" width="300"> |
 
 ### Links
 
