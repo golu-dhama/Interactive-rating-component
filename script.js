@@ -26,12 +26,17 @@ ratingButtons.forEach(function (button) {
     button.addEventListener("click", function () {
 
         // Pehle sab buttons se selected class remove
+        // aur aria-pressed ko false karo
         ratingButtons.forEach(function (btn) {
             btn.classList.remove("selected");
+            btn.setAttribute("aria-pressed", "false");
         });
 
         // Click kiye hue button ko selected karo
         button.classList.add("selected");
+
+        // Screen reader ko selected state batao
+        button.setAttribute("aria-pressed", "true");
 
         // Selected rating store karo
         currentRating = button.textContent;
