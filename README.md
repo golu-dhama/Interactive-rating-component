@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/golu-dhama/Interactive-rating-component]
-- Live Site URL: [https://golu-dhama.github.io/Interactive-rating-component/]
+- Solution URL: [View Solution](https://github.com/golu-dhama/Interactive-rating-component)
+- Live Site URL: [View Live Site](https://golu-dhama.github.io/Interactive-rating-component/)
 
 ## My process
 
